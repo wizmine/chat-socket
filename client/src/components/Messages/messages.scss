@@ -1,0 +1,28 @@
+.message {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.user {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
+}
+
+.text {
+  padding: 6px;
+  border-radius: 8px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.me {
+  align-items: flex-end;
+  border-radius: 8px 8px 0px 8px;
+}
+
+.another {
+  align-items: flex-start;
+  border-radius: 8px 8px 8px 0px;
+}

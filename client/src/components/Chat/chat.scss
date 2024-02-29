@@ -1,0 +1,97 @@
+.chat {
+  &-wrap {
+    width: 800px;
+    padding: 6px;
+    border: 1px solid rgb(153, 0, 255);
+    background-color: blueviolet;
+    border-radius: 8px;
+  }
+
+  &-header {
+    padding-bottom: 6px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  &-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+
+  &-users {
+    font-size: 20px;
+    color: white;
+  }
+
+  &-exit {
+    cursor: pointer;
+    padding: 6px;
+    background-color: rgb(196, 145, 255);
+    border: 1px solid rgb(132, 0, 255);
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+  }
+
+  &-messages {
+    padding: 4px 0px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  &-form {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-group {
+    height: 100%;
+    width: 80%;
+  }
+
+  &-input {
+    height: 100%;
+    width: 100%;
+    padding: 4px;
+    outline: none;
+    color: white;
+    background-color: rgb(196, 145, 255);
+    border: 1px solid rgb(132, 0, 255);
+    border-radius: 8px;
+  }
+
+  &-input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+  }
+
+  &-submit {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-button {
+      width: 100%;
+      cursor: pointer;
+      padding: 4px;
+      background-color: rgb(196, 145, 255);
+      border: 1px solid rgb(132, 0, 255);
+      border-radius: 8px;
+      color: white;
+      font-size: 16px;
+    }
+  }
+}
